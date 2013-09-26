@@ -1,0 +1,118 @@
+---
+layout: post
+title: "CSS: Font"
+date: 2013-09-25 20:28
+comments: true
+categories: [CSS, Font, Web] 
+---
+
+Font. So many a web design newbie will skiff right over this subject
+without a thought, but I’m here to tell you that’s a mistake.
+
+<!-- more -->
+
+Note that this article is a revision of the 2011 article here:
+http://www.blog.baweaver.com/post/8775904389/practical-css-font
+
+## Content is King
+
+That’s right, content is king. Ultimately your goal in web design is to
+have great content, without it there’s not a designer in the world that
+could save you. Content is conveyed via design to your user, and the key
+stone to that conveyance is your font.
+
+## Even basic typography will do wonders
+
+With very little knowledge of typography you can take your page to a
+whole new level. This, combined with other design principles I will
+cover later, will be the staple of your pages.
+
+## What can CSS do with font?
+
+CSS has several options to work with fonts, the style, the weight, the
+size, line height, the works. In this section we’ll also be covering
+some basic shorthand to speed up your coding as well.
+
+Take a look at this example of longhand CSS font manipulation:
+
+``` css Longhand Font
+body{
+  font-family:Helvetica, Arial, sans-serif;
+  font-size:12px;
+  line-height: 24px;
+  font-weight: bold;
+  font-style: italic;
+  font-variant: small-caps; 
+}
+```
+
+…when looking at all that it’s a lot of code. Lucky for us the people at
+W3 were on the ball and made shorthand for us, all that code can be put
+in one line.
+
+``` css Shorthand Font
+body{
+  font: italic small-caps bold 12px/24px Helvetica, Arial, sans-serif;
+}
+```
+
+The order of modifiers is in this order: style, variant, weight,
+size/line-height, family. More on font modifiers can be found at The W3.
+
+I would not suggest using all these at once like this either.
+
+## What is Line Height?
+
+An often missed piece of learning font modifiers in CSS is line-height,
+though don’t let it fool you. Line Height is one of the most important
+properties. Remember back to working in Microsoft Office, how teachers
+would always have you double space for readability? Turns out that it
+applies to more than just office.
+
+Line Height is the white space inbetween lines of text, and as a
+standard rule of thumb it needs to be at least 1.5x your font size.
+There are exceptions to this, but in paragraph format you need to be
+sure of this.
+
+It improves readability substantially and helps the flow of your page as
+well. Without it text is just jammed together in a clump that’s just
+asking for people to avoid it. Tightly compacted paragraphs are
+intimidating to most people.
+
+## Font Units
+
+Font is not only measured in pixels and points, there are various other
+units as well that you need to be aware of.
+
+### Relative Units
+
+*%*: Percent is determined by a set font size in a parent element,
+normally the body.
+
+*em*: Determined by the users default preference, measured by the letter
+“m”, this is a relative measure.
+
+*ex*: The same as em, except the measure is by the x-height of the font,
+or the height of the letter “x”.
+
+*pixel*: Pixel, a relative unit? While this may seem strange to some, the
+pixel is in fact a relative unit. The monitor or screen displaying the
+font has a set resolution and dpi (displayed pixels per inch) that can
+be modified, making it relative. Take a look at the resolution on your
+iPhone some time.
+
+### Absolute Units
+
+*inch*: The standard imperial inch.
+
+*cm*: The standard metric centimeter.
+
+*point*: A standard font measure, at 1/72 of an inch.
+
+*pica*: A less known unit that is 12 points
+
+## Wrapping up
+
+There’s a lot of ground to cover in fonts, but with this you’ll have a
+basic idea of how to get started. I will cover more on typography and
+specifically which fonts to use in later tutorials. Next up is The Box Model.
