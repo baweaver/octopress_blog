@@ -3,7 +3,7 @@ layout: post
 title: "CSS: Box Model"
 date: 2013-09-25 20:29
 comments: true
-categories: [CSS, Web] 
+categories: [Tutorial, CSS, Web] 
 ---
 
 The Box model, an odd term isn’t it? It is used to describe the

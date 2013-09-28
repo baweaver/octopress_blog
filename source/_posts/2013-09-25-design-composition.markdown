@@ -3,7 +3,7 @@ layout: post
 title: "Design: Composition"
 date: 2013-09-25 20:32
 comments: true
-categories: [Design, Composition, Web] 
+categories: [Tutorial, Design, Composition, Web] 
 ---
 
 Composition is the one element that you absolutely cannot avoid. It will

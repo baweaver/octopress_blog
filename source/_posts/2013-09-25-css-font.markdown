@@ -3,7 +3,7 @@ layout: post
 title: "CSS: Font"
 date: 2013-09-25 20:28
 comments: true
-categories: [CSS, Font, Web] 
+categories: [Tutorial, CSS, Font, Web] 
 ---
 
 Font. So many a web design newbie will skiff right over this subject

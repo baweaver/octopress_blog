@@ -3,7 +3,7 @@ layout: post
 title: "Design: Color Theory"
 date: 2013-09-25 20:31
 comments: true
-categories: [Color, Design, Web] 
+categories: [Tutorial, Color, Design, Web] 
 ---
 
 Before you even start to worry about how your site looks you need to

@@ -3,7 +3,7 @@ layout: post
 title: "CSS: Floats and Positioning"
 date: 2013-09-25 20:30
 comments: true
-categories: [CSS, Web] 
+categories: [Tutorial, CSS, Web] 
 ---
 
 Now that we’ve covered  a majority of the basics we can finally get to

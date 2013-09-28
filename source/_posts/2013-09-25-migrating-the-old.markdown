@@ -17,4 +17,8 @@ Does that mean that I've done nothing with the other articles? No, I've
 patched them up to detail HTML5 and some newer concepts, but they will
 inevitably need to be redone evantually as well.
 
+I do concede that I've posted this site with the default template still
+intact, something I intend to correct later, but for now it would be
+preferable to get a site up and running first.
+
 Here's to Octopress and getting back into Blogging!

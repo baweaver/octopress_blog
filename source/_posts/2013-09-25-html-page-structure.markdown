@@ -3,7 +3,7 @@ layout: post
 title: "HTML: Page Structure"
 date: 2013-09-25 20:26
 comments: true
-categories: [HTML, Web]
+categories: [Tutorial, HTML, Web]
 ---
 
 Now that we’ve covered the basics of HTML it’s time to start getting to

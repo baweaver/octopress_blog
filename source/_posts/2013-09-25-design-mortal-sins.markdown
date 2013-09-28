@@ -3,7 +3,7 @@ layout: post
 title: "Design: Mortal Sins"
 date: 2013-09-25 20:33
 comments: true
-categories: [Design, Web] 
+categories: [Tutorial, Design, Web] 
 ---
 
 So far we’ve covered quite a lot of ground in both coding and design,

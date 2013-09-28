@@ -3,7 +3,7 @@ layout: post
 title: "HTML: The Basics"
 date: 2013-09-25 20:25
 comments: true
-categories: [HTML, Web]
+categories: [Tutorial, HTML, Web]
 ---
 
 Welcome to my lesson, HTML: The Basics. It is my goal to

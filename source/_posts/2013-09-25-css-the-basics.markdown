@@ -3,7 +3,7 @@ layout: post
 title: "CSS: The Basics"
 date: 2013-09-25 20:27
 comments: true
-categories: [CSS, Web] 
+categories: [Tutorial, CSS, Web] 
 ---
 
 
