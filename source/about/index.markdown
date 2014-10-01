@@ -7,24 +7,16 @@ sharing: true
 footer: true
 ---
 
-My name is Brandon Weaver, and I work as a Software Engineer at Cerner
-in Kansas City.
+My name is Brandon Weaver, and I work as an Infrastructure Automation and DevOps Engineer at Sony Network Entertainment Int'l
+in San Francisco.
 
 ## What do I do?
 
-Ruby, Rails, and the usual Web Stack.
+Ruby, Rails, Javascript, AngularJS, NodeJS, and a tinge of Elixir on the side.
 
 ## What experience do I have?
 
-I started as a DevOps at a Wireless ISP, automating hundreds of wireless
-antennas with home made Ruby utilities and frameworks for about two
-years. I did everything from design to climbing up a water tower to
-deploy equipment. My nickname very quickly became the Technical
-Macgyver.
-
-I'm a Unix guy, I live in a command shell. Vim and ZSH are my weapons of
-choice, and I have a tendancy to automate anything that takes more than
-five keystrokes at a time.
+I have LinkedIn for that one: [Brandon Weaver on LinkedIn](www.linkedin.com/pub/brandon-weaver/36/781/a96/)
 
 ## Why do you do?
 
@@ -34,7 +26,7 @@ build, to make things that help people.
 
 ## Contact
 
-Want to know more? Ping me on Twitter or shoot me an email at
+Ping me on Twitter @keystonelemur or shoot me an email at
 brandon_weaver@baweaver.com 
 
 I'm currently very happily employed, and do not wish to speak with

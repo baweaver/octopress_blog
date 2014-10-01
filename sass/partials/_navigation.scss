@@ -61,6 +61,11 @@ body > nav {
       font-size: 1.1em;
       padding: .1em 0;
       line-height: 1.5em;
+
+      &:hover {
+        color: $nav-bg-active;
+        text-shadow: none;
+      }
     }
     li + li {
       border-left: 1px solid $nav-border-left;
@@ -76,6 +81,7 @@ body > nav {
       padding-left: .8em;
       width: $sidebar-width-medium - $pad-medium*2 - $sidebar-pad-medium + 20px;
       .search {
+        background: lighten($nav-bg, 25);
         width: 93%;
         font-size: .95em;
         line-height: 1.2em;

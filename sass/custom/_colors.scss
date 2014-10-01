@@ -2,17 +2,25 @@
 // To give it a try, uncomment some of the lines below rebuild your blog, and see how it works.
 // If you need a handy color picker try http://hslpicker.com
 
-//$header-bg: #263347;
-//$subtitle-color: lighten($header-bg, 58);
-//$nav-bg: desaturate(lighten(#8fc17a, 18), 5);
-//$nav-bg-front: image-url('noise.png');
-//$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11));
-//$sidebar-bg: desaturate(#eceff5, 8);
-//$sidebar-link-color: saturate(#526f9a, 10);
-//$sidebar-link-color-hover: darken(#7ab662, 9);
-//$footer-bg: #ccc !default;
-//$footer-bg-front: image-url('noise.png');
-//$footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11));
+// Derived from parts of:
+// https://kuler.adobe.com/zen-and-tea-color-theme-337112/
+// https://kuler.adobe.com/Vitamin-C-color-theme-492199/
+
+$text-color: #10222B;
+$text-color-light: #004358;
+$main-bg: lighten(#004358, 95);
+$page-bg: #10222B;
+$header-bg-color: lighten(#10222B, 5);
+$subtitle-color: lighten($header-bg-color, 58);
+$nav-bg: desaturate(lighten(#10222B, 45), 5);
+$nav-bg-front: image-url('noise.png');
+$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11));
+$sidebar-bg: desaturate(lighten(#10222B, 85), 8);
+$sidebar-link-color: saturate(#004358, 5);
+$sidebar-link-color-hover: #FD7400;
+$footer-bg: #004358;
+$footer-bg-front: image-url('noise.png');
+$footer-bg-back: linear-gradient(lighten($footer-bg, 5), $footer-bg, darken($footer-bg, 5));
 
 
 /* To use the light Solarized highlighting theme uncomment the following line */
