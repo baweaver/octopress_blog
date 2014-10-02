@@ -75,6 +75,18 @@ html {
   background: $page-bg image-url('arches-dark.gif') top left;
 }
 
+#koi {
+  background: image-url('code-koi.png') no-repeat;
+  width:  400px;
+  height: 600px;
+
+  z-index: -50;
+
+  position: fixed;
+    top: 0;
+    left: 0;
+}
+
 body {
   > div {
     background: $sidebar-bg $noise-bg;
