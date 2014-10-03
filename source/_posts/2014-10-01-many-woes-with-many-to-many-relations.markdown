@@ -3,7 +3,7 @@ layout: post
 title: "Many Woes with Many to Many Relations"
 date: 2014-10-01 21:11:59 -0700
 comments: true
-categories: [Ruby, Rails, Routes, AngularJS, API]
+categories: [Ruby, Rails, Routes, AngularJS, API, ActiveRecord]
 ---
 
 Rails provides us with a lot of power in routing and associations, but if you've ever tried to set up an API with any form of many-to-many relationship, you're in for a nightmare. Google won't save you, the Rails guides are sparse, and there's a grand total of [one good blog post](http://ngauthier.com/2010/11/restful-many-to-many-relationships-in-rails.html) on the matter from a few years ago.
@@ -45,13 +45,13 @@ RestAngular.one \posts, 1 .one \categories, 1 .remove!
 
 ## So what do you do?
 
-There's an association table with your name on it called something like PostCategories. Trying to route through either one of the hosts is likely to give you nightmares.
+There's an association table with your name on it called something like PostCategory. Trying to route through either one of the hosts is likely to give you nightmares.
 
 First let's take a look at what your controller action should look like to handle the queries:
 
 ```ruby
 def index
-  PostCategories.where(params.slice(:post_id, :category_id))
+  PostCategory.where(params.slice(:post_id, :category_id))
 end
 
 def create
@@ -66,9 +66,9 @@ end
 
 def destroy
   if params[:id]
-    PostCategories.find(params[:id]).destroy
+    PostCategory.find(params[:id]).destroy
   else
-    PostCategories.where(post_id: params[:post_id], category_id: params[:category_id]).first.destroy
+    PostCategory.where(post_id: params[:post_id], category_id: params[:category_id]).first.destroy
   end
 
   head :no_content
@@ -79,7 +79,7 @@ Note that the index action is a very succinct way of saying:
 
 ```ruby
 def index
-  post_categories = PostCategories.all
+  post_categories = PostCategory.all
   post_categories = post_categories.where(post_id: params[:post_id]) if params[:post_id]
   post_categories = post_categories.where(category_id: params[:category_id]) if params[:category_id]
 end

@@ -73,6 +73,7 @@ a {
 
 html {
   background: $page-bg image-url('arches-dark.gif') top left;
+  background-attachment: fixed;
 }
 
 #koi {
@@ -85,6 +86,18 @@ html {
   position: fixed;
     top: 0;
     left: 0;
+}
+
+#koi-stream {
+  background: image-url('code-koi-stream.png') no-repeat;
+  width:  200px;
+  height: 500px;
+
+  z-index: -50;
+
+  position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 body {
