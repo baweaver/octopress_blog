@@ -13,11 +13,11 @@ In off hours I'm a Musician, an [Artist](http://www.baweaver.deviantart.com), a 
 
 ## What do I do?
 
-Ruby, Rails, Javascript, AngularJS, NodeJS, and a tinge of Elixir on the side.
+Ruby, Rails, Javascript, AngularJS, NodeJS, Clojure, and a tinge of Elixir on the side.
 
 ## What experience do I have?
 
-I have LinkedIn for that one: [Brandon Weaver on LinkedIn](www.linkedin.com/pub/brandon-weaver/36/781/a96/)
+I have LinkedIn for that one: [Brandon Weaver on LinkedIn](https://www.linkedin.com/in/keystonelemur)
 
 ## Why do you do?
 

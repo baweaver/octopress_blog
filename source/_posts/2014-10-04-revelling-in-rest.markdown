@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Revelling in REST"
+title: "Reveling in REST"
 date: 2014-10-04 20:03:43 -0700
 comments: true
 categories: [API, REST, Angular, Restangular, angular-data, http]
